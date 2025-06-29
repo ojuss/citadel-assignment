@@ -1,6 +1,6 @@
-# Citadel Assignment - University Social Platform Algorithms
+# Citadel Assignment
 
-This project implements two core matching algorithms for a university social networking platform that facilitates meaningful connections through one-on-one profile discovery and group dining experiences.
+This project is a take home assignment from citadel that implements two core matching algorithms that facilitates strategic one-on-one profile discovery and group dining experiences.
 
 ## Overview
 
@@ -32,8 +32,6 @@ citadel-assignment/
 ```
 
 ## Getting Started
-
-**Prerequisites:** Python 3.8 or higher
 
 1. Install required dependencies:
 ```bash
@@ -312,7 +310,7 @@ The system targets 60-80% of user pairs having at least one shared interest whil
 
 ### Benchmark Results
 
-Based on testing with 1,000 user profiles, the algorithms demonstrate strong performance characteristics:
+Based on testing with 10 user profiles, the algorithms demonstrate following performance characteristics:
 
 ```
 Profile Discovery: 1.06ms per recommendation (Target: <100ms)
@@ -485,25 +483,9 @@ Group 1 (6 members):
 - **Rationale**: Balances optimization quality with scalable performance requirements
 - **Trade-off**: Risk of local optima in large user pools, but maintains reasonable execution times
 
-## Technical Requirements
 
-### Dependencies
-
-The system requires the following Python packages:
-
-```
-numpy>=1.21.0          # Numerical computations for scoring algorithms
-dataclasses>=0.6       # Data structure definitions for user profiles
-typing>=3.8.0         # Type annotations for code clarity
-collections>=3.8.0    # Counter and defaultdict utilities
-itertools>=3.8.0      # Combination generation for group formation
-random>=3.8.0         # Randomization for exploration strategies
-math>=3.8.0           # Mathematical functions for entropy calculations
-```
 
 ### Development Setup
-
-For contributors and developers working with this codebase:
 
 ```bash
 # Clone the repository
@@ -513,19 +495,9 @@ cd citadel-algorithms
 # Install required dependencies
 pip install -r requirements.txt
 
-# Run comprehensive test suite
-python -m pytest tests/
-
 # Execute demonstration scripts
 python main.py
 ```
 
-## Contributing Guidelines
+p.s: I'm a dev and designing algorithms isn't my forte but I wanna give acknowlegement to claude AI for helping me understand the approach and completing the assignment.
 
-We welcome contributions from developers interested in improving the matching algorithms or extending functionality. Please review our contributing guidelines and ensure all changes include appropriate test coverage.
-
-## License and Attribution
-
-This project is developed as part of the Citadel Startup assignment and implements algorithms inspired by successful matching platforms including Hinge for profile discovery and Timeleft for group dining experiences.
-
-The implementation draws from research in social psychology, recommendation systems, and scalable system design principles to create algorithms suitable for production deployment in university social networking platforms.
