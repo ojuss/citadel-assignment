@@ -31,19 +31,25 @@ citadel-assignment/
 └── README.md                   # This file
 ```
 
-## Getting Started
+### Get Started/Test
 
-1. Install required dependencies:
+1. Clone the repository
+```bash
+git clone https://github.com/username/citadel-algorithms.git
+cd citadel-algorithms
+```
+
+2. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the complete demonstration:
+3. Run the complete demonstration:
 ```bash
 python main.py
 ```
 
-3. Run individual algorithm tests:
+4. Run individual algorithm tests:
 ```bash
 python tests/test_profile_discovery.py
 python tests/test_group_dining.py
@@ -482,22 +488,6 @@ Group 1 (6 members):
 - **Decision**: Hybrid approach using exhaustive search for small groups, sampling for large pools
 - **Rationale**: Balances optimization quality with scalable performance requirements
 - **Trade-off**: Risk of local optima in large user pools, but maintains reasonable execution times
-
-
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/username/citadel-algorithms.git
-cd citadel-algorithms
-
-# Install required dependencies
-pip install -r requirements.txt
-
-# Execute demonstration scripts
-python main.py
-```
 
 p.s: I'm a dev and designing algorithms isn't my forte but I wanna give acknowlegement to claude AI for helping me understand the approach and completing the assignment.
 
