@@ -35,7 +35,7 @@ citadel-assignment/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/username/citadel-algorithms.git
+git clone https://github.com/ojuss/citadel-assignment.git
 cd citadel-algorithms
 ```
 
